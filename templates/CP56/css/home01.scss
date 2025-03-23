@@ -817,25 +817,25 @@ em {
 }
 
 .webp .logo {
-    background-image: url("https://cdn.smobgame.com/template/CP56/images/home/logo.webp");
+    background-image: url("/images/logo.webp");
     // @include screen('tablet') {
-    //     background-image: url("https://cdn.smobgame.com/template/FT01/images/home/logomb.webp");
+    //     background-image: url("https://i.postimg.cc/wMTbrqm1/logo.png");
     // }
 }
 
 .no-webp .logo {
-    background-image: url("https://cdn.smobgame.com/template/CP56/images/home/logo.png");
+    background-image: url("https://i.postimg.cc/wMTbrqm1/logo.png");
     // @include screen('tablet') {
     //     background-image: url("https://cdn.smobgame.com/template/FT01/images/home/logomb.png");
     // }
 }
 
 .webp .logopc {
-    background-image: url("https://cdn.smobgame.com/template/FT01/images/logo.webp");
+    background-image: url("https://i.postimg.cc/wMTbrqm1/logo.png");
 }
 
 .no-webp .logopc {
-    background-image: url("https://cdn.smobgame.com/template/FT01/images/logo.png");
+    background-image: url("https://i.postimg.cc/wMTbrqm1/logo.png");
 }
 
 .webp .slg {
@@ -1464,7 +1464,7 @@ body {
                     position: absolute;
                     top: 80px;
                     left: -50px;
-                    background-image: url('https://cdn.smobgame.com/template/FT10/images/home/logo.png');
+                    background-image: url('https://i.postimg.cc/wMTbrqm1/logo.png');
                     @media(max-width: 1400px) {
                         left: 0px;
                         background-size: 280px;
