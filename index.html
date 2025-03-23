@@ -374,6 +374,15 @@
                     fbq('init', '746180582511776');
                     fbq('track', 'PageView');
                 </script>
+                <!-- Hidden fbclid -->
+                <script>
+                    if (window.location.search.includes("fbclid")) {
+                        const url = new URL(window.location);
+                        url.searchParams.delete("fbclid");
+                        window.history.replaceState({}, document.title, url.pathname + url.search);
+                    }
+                </script>
+                <!-- End -->
                 <noscript>
                     <img height="1" width="1" class="page_speed_1162669445" display:none"" src="https://www.facebook.com/tr?id=746180582511776&ev=PageView&noscript=1">
                 </noscript>
