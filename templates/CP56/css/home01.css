@@ -651,11 +651,13 @@ em {
 }
 
 .webp .logo {
-  background-image: url("https://i.postimg.cc/wMTbrqm1/logo.png");
+  /* background-image: url("https://i.postimg.cc/wMTbrqm1/logo.png"); */
+  background-image: url("/images/logo.png");
 }
 
 .no-webp .logo {
-  background-image: url("https://i.postimg.cc/wMTbrqm1/logo.png");
+  background-image: url("/images/logo.png");
+  /* background-image: url("https://i.postimg.cc/wMTbrqm1/logo.png"); */
 }
 
 .webp .logopc {
